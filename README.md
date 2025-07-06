@@ -1,6 +1,12 @@
 # 基于Pytorch的跨模态检索系统
 
 本项目实现了一个简单完整的跨模态检索系统，通过训练图像与文本在同一语义空间中的对齐，实现**文本查图**功能。使用 PyTorch 框架，基于公开数据集 Flickr30K 构建，支持前端交互演示。
+![image](https://github.com/user-attachments/assets/ffcfcb98-78f1-4b95-a060-e7921253df6b) 
+
+![image](https://github.com/user-attachments/assets/820afd7b-4c94-41ec-9e68-32e010c1cca2) 
+
+![Uploading image.png…]() 
+
 
 模型结构:
 [ ResNet18 (512维) ] ──> MLP投影 → 256维共享空间 ← MLP投影 ── [ BERT (768维) ]
